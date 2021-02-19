@@ -19,5 +19,5 @@ $package = Package::getByHandle('blog_module');
 <?php
 $blogPage = Page::getByPath('/blog');
 if (is_object($blogPage)) {
-    echo '<a class="btn btn-primary" href="' . $blogPage->getCollectionLink() . '">Visit Blog</a>';
+    echo '<a class="btn btn-primary" href="' . $blogPage->getCollectionLink() . '">' . t('Visit Blog') . '</a>';
 }

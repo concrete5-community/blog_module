@@ -1,3 +1,7 @@
+1.0
+- Approved by PRB.
+- Add missing t-function in post install dialog.
+
 0.9.6
 - Fix deprecated methods for 841 while keeping backwards compatibility.
 - Remove unused import in FileLoader.
