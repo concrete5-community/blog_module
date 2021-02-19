@@ -1,3 +1,7 @@
+1.1.2
+- Fix Logger dependency issue in 8.4.5+.
+- Fix namespaces of Import classes.
+
 1.1.1
 - Fix import issue with conversation block in certain MySQL versions.
 (reviewAggregateAttributeKey can't be "")

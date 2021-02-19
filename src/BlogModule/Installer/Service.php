@@ -17,7 +17,7 @@ class Service implements ApplicationAwareInterface
     use ApplicationAwareTrait;
 
     /**
-     * @var Connection
+     * @var \Concrete\Core\Database\Connection\Connection
      */
     private $db;
 

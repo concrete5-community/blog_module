@@ -1,6 +1,6 @@
 <?php
 
-namespace A3020\BlogModule\Installer;
+namespace A3020\BlogModule\Import;
 
 use Concrete\Core\Application\ApplicationAwareInterface;
 use Concrete\Core\Application\ApplicationAwareTrait;
@@ -14,12 +14,12 @@ class Importer implements ApplicationAwareInterface
     use ApplicationAwareTrait;
 
     /**
-     * @var ContentImporter
+     * @var \Concrete\Core\Backup\ContentImporter
      */
     protected $contentImporter;
 
     /**
-     * @var FileLoader
+     * @var \A3020\BlogModule\Import\FileLoader
      */
     private $fileLoader;
 
