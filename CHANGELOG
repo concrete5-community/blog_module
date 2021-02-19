@@ -1,3 +1,7 @@
+1.1.1
+- Fix import issue with conversation block in certain MySQL versions.
+(reviewAggregateAttributeKey can't be "")
+
 1.1
 - Make sure blog posts are not shown in the main menu.
 - Make sure the 'Exclude Sub-Pages From Nav' attribute is installed.

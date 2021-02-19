@@ -289,7 +289,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
                                                     <enableCommentRating><![CDATA[1]]></enableCommentRating>
                                                     <enableTopCommentReviews><![CDATA[0]]></enableTopCommentReviews>
                                                     <displaySocialLinks><![CDATA[0]]></displaySocialLinks>
-                                                    <reviewAggregateAttributeKey><![CDATA[]]></reviewAggregateAttributeKey>
+                                                    <reviewAggregateAttributeKey><![CDATA[0]]></reviewAggregateAttributeKey>
                                                     <displayPostingForm><![CDATA[top]]></displayPostingForm>
                                                     <addMessageLabel><![CDATA[Add Message]]></addMessageLabel>
                                                     <dateFormat><![CDATA[default]]></dateFormat>
