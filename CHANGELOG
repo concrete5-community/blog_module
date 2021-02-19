@@ -1,0 +1,33 @@
+0.9.6
+- Fix deprecated methods for 841 while keeping backwards compatibility.
+- Remove unused import in FileLoader.
+- Use typehinted methods in PageTypePublish.
+
+0.9.5
+- Fix 'Add blog list' checkbox.
+- Improve help with extra tooltips.
+- Improve check of former blog components for Elemental.
+- Add check for 'blog_entry_topics' attribute.
+
+0.9.4
+- Update icon.
+- Add uninstall options to delete blog index pages and blog posts.
+- Show a message if there are unused / uninstalled page templates.
+- Show a message if former blog components have been found.
+
+0.9.3
+- Use View::element to load XML installation files.
+- Split up page_types files.
+- Add try / catches with better error handling.
+
+0.9.2
+- Add button to /blog page in post install dialog.
+- Add help to Area fields on pre install page.
+- Disable cache in installer, to prevent issues on 8.4.0.
+
+0.9.1
+- Do not let the add-on create the Right Sidebar page template.
+This should be the responsibility of other add-ons / themes / manual action.
+
+0.9.0
+- Initial PRB submission.
