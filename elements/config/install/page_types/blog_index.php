@@ -29,6 +29,14 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
                         <page name="" path="" filename="" pagetype="blog_index"
                               template="<?php echo $data['biPageTemplate']; ?>" description="" package=""
                               root="true">
+
+                            <!-- Make sure blog posts are not shown in the main menu, for example -->
+                            <attributes>
+                                <attributekey handle="exclude_subpages_from_nav">
+                                    <value>1</value>
+                                </attributekey>
+                            </attributes>
+
                             <?php
                             if (isset($data['biPageTitle'])): ?>
                                 <area name="<?php echo $data['biTitleArea']; ?>">

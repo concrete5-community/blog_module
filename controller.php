@@ -11,7 +11,7 @@ final class Controller extends Package
 {
     protected $pkgHandle = 'blog_module';
     protected $appVersionRequired = '8.0';
-    protected $pkgVersion = '1.0';
+    protected $pkgVersion = '1.1';
     protected $pkgAutoloaderRegistries = [
         'src/BlogModule' => '\A3020\BlogModule',
     ];
